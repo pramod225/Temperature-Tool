@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="firstjavafxapp.controller">
+    <children>
+        <Pane prefHeight="240.0" prefWidth="267.0">
+            <children>
+                <Label fx:id="welcomelable" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="40.0" prefWidth="295.0" text="WELCOME" textFill="#280a0a">
+                    <font>
+                        <Font name="Bell MT Bold" size="33.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choicebox" layoutX="62.0" layoutY="86.0" prefHeight="25.0" prefWidth="161.0" />
+                <Button fx:id="convert" contentDisplay="CENTER" layoutX="85.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Convert" />
+                <TextField fx:id="userfield" layoutX="63.0" layoutY="128.0" prefHeight="25.0" prefWidth="161.0" promptText="Enter Temparature" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
